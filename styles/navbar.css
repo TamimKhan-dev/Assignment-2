@@ -20,12 +20,21 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* shared styles */
+.custom_color{
+  color: #E95A08;
+}
+
+.descriptions{
+  color: rgba(0, 0, 0, 0.5);
+}
 
 
-
+                  
 /* Header section styles */
 header{
   padding-top: 1.1rem;
+  margin-bottom: 60px;
 }
 /* navbar section styles */
 .navbar{
@@ -55,7 +64,8 @@ header{
 /* Responsive design starts from here */
 @media screen and (min-width: 1024px) {
   header{
-    padding-top: 1.5rem
+    padding-top: 1.5rem;
+    margin-bottom: 80px;
   }
   .navbar_content{
     display: flex;
@@ -84,6 +94,7 @@ header{
 @media screen and (min-width: 1440px) {
   header{
     padding-top: 2rem;
+    margin-bottom: 120px;
   }
   .navbar{
     width: 86%;
