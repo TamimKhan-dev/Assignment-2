@@ -77,6 +77,9 @@
     .items_carts{
         grid-template-columns: repeat(3, 1fr);
     }
+    .items_title{
+        font-size: 2.2rem;
+    }
     .items_description{
         font-size: 1.2rem;
         width: 68%;
