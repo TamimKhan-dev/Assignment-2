@@ -27,13 +27,12 @@ footer{
 /* Footer section responsive design */
 @media screen and (min-width: 768px) {
     .footer_description{
-        width: 400px;
+        width: 350px;
         font-size: 1.1rem;
     }
 }
 @media screen and (min-width: 1024px) {
     .footer_description{
-        width: 440px;
         font-size: 1.2rem;
     }
     .footer_nav_items li a{
@@ -56,6 +55,7 @@ footer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 128px;
+        row-gap: 10px;
     }
     .foonter_icons{
         align-self: flex-start;
@@ -65,6 +65,14 @@ footer{
         font-size: 1.4rem;
     }
     .footer_description{
-       font-size: 1.4rem; 
+       font-size: 1.4rem;
+    }
+    .footer_heading{
+        margin-bottom: 130px;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .footer_heading_options{
+        gap: 380px;
     }
 }
