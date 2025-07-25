@@ -1,0 +1,70 @@
+/* Footer section styles */
+footer{
+    width: 100%;
+    padding: 20px;
+}
+.footer_heading_options img{
+    margin-bottom: 1rem;
+}
+.footer_description{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.3rem;
+}
+.footer_nav_items li{
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+.footer_nav_items li a{
+    color: rgba(0, 0, 0, 0.5);
+}
+.foonter_icons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Footer section responsive design */
+@media screen and (min-width: 768px) {
+    .footer_description{
+        width: 400px;
+        font-size: 1.1rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .footer_description{
+        width: 440px;
+        font-size: 1.2rem;
+    }
+    .footer_nav_items li a{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .footer_contents{
+        padding: 60px;
+        display: flex;
+    }
+    .footer_heading_options{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 110px;
+        margin-right: 110px;
+    }
+    .footer_nav_items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 128px;
+    }
+    .foonter_icons{
+        align-self: flex-start;
+    }
+    .footer_nav_items li a{
+        white-space: nowrap;
+        font-size: 1.4rem;
+    }
+    .footer_description{
+       font-size: 1.4rem; 
+    }
+}
